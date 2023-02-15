@@ -1,22 +1,25 @@
 body {
-  background-image: url('https://i.pinimg.com/736x/23/37/d1/2337d11e0f5184315838010e7d9de306.jpg');
+  background-image: url("https://i.pinimg.com/736x/23/37/d1/2337d11e0f5184315838010e7d9de306.jpg");
   background-repeat: no-repeat;
   background-size: 100% 250%;
 }
 h1 {
-  color:rgb(246, 255, 0);
-  font-family:cursive;
+  color: rgb(246, 255, 0);
+  font-family: cursive;
   text-align: center;
-  background-image: url('https://i.pinimg.com/736x/7c/0f/d1/7c0fd1b491e81e23e3ce25c4b810e55b.jpg');
+  background-image: url("https://i.pinimg.com/736x/7c/0f/d1/7c0fd1b491e81e23e3ce25c4b810e55b.jpg");
   background-size: fit-content;
 }
-table, th,td {
-  border: 2px solid black;
+table,
+th,
+td {
+  border: 3px solid black;
   border-collapse: collapse;
   border-color: antiquewhite;
-  color:rgb(255, 255, 0);
-  text-shadow: -2px 3px 4px rgb(128, 0, 111);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-width: 2px;
+  color: rgb(104, 61, 139);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 table {
   width: 100%;
@@ -24,7 +27,23 @@ table {
   border-color: antiquewhite;
 }
 th {
-  background-image: url('https://i.pinimg.com/564x/5d/9e/54/5d9e54e40411a8dc68d6ff287ddfb979.jpg');
+  background-image: url("https://i.pinimg.com/564x/5d/9e/54/5d9e54e40411a8dc68d6ff287ddfb979.jpg");
   background-size: fit-content;
-  color:azure;
+  color: darkslateblue;
+  font-family: 'Lucida Console', monospace;
 }
+td.style {
+  color: darkslateblue;
+  text-shadow: none;
+  background-image: url("https://i.pinimg.com/564x/3b/31/19/3b31195d25d9dbfe8c215bbb0df4fc25.jpg");
+  background-repeat: no-repeat;
+  background-size: fit-content;
+}
+td.empty {
+  border-bottom-style: hidden;
+  text-align: center;
+}
+tr, td {
+  font-family: 'Georgia',serif;
+}
+
